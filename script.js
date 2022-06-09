@@ -2,10 +2,14 @@ window.onload = function(){
     let zodis = "mediena";
     let zodis2 = "azuolas";
     let zodis3 = "namas";
-    let raide;
-    let PirmaRaide = pirmaRaide(zodis, zodis2, zodis3);
-    console.log(PirmaRaide);
+    let raide = PirmaRaide(zodis);
+    console.log(raide);
+    raide = PirmaRaide(zodis2);
+    console.log(raide);
+    raide = PirmaRaide(zodis3);
+    console.log(raide);
+
 }
-function pirmaRaide(zodis, zodis2, zodis3){
-    return raide[0];
+function  PirmaRaide(zodis){
+    return zodis[0];
 }
